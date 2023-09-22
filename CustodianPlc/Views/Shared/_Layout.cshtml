@@ -1,0 +1,77 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>@ViewData["Title"]</title>
+	<meta name="author" content="custodianplc.com.ng">
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<link rel="shortcut icon" href="https://custodianplc.com.ng/img/favicon.ico" type="image/x-icon" />
+	<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600" rel="stylesheet">
+	<link rel="stylesheet" href="~/vendor/bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" href="~/vendor/node_modules/sweetalert2/dist/sweetalert2.css">
+	<link href="~/css/main-shortcodes.css" rel="stylesheet" />
+	<link href="~/css/shortcodes.css" rel="stylesheet" />
+	<link href="~/css/header.css" rel="stylesheet" />
+	<link rel="stylesheet" href="~/css/custom.css">
+	<link href="~/css/form-element.css" rel="stylesheet" />
+	<link href="~/css/responsive.css" rel="stylesheet" />
+	<link href="~/css/utilities.css" rel="stylesheet" />
+	<link href="~/css/skins/default.css" rel="stylesheet" />
+	<link href="~/vendor/pricing-tables/main.css" rel="stylesheet" />
+	<link href="~/vendor/pricing-tables/responsive.css" rel="stylesheet" />
+	<link href="~/vendor/pricing-tables/style_9.css" rel="stylesheet" />
+	<link rel="stylesheet" href="~/css/smart-forms/smart-addons.css" />
+	<link rel="stylesheet" href="~/css/smart-forms/smart-forms.css" />
+	<link rel="stylesheet" href="~/css/moneypage.css">
+	<script src="https://kit.fontawesome.com/beb513e456.js" crossorigin="anonymous"></script>
+	<link href="~/css/product.css" rel="stylesheet" />
+	@await RenderSectionAsync("style", false)
+</head>
+<body>
+    <header class="l-header l-center-t">
+        <div class="l-navbar l-navbar_t-light js-navbar-sticky">
+            <div class="container">
+                <nav class="menuzord js-primary-navigation menuzord-responsive" data-plugin-menuzord="" data-plugin-options="{'align': 'right'}" aria-label="Primary Navigation">
+                    <a href="javascript:void(0)" class="showhide" style="display: none;"><em b-5lkaa38pds=""></em><em b-5lkaa38pds=""></em><em b-5lkaa38pds=""></em></a>
+                    <a href="https://custodianplc.com.ng" class="logo-brand">
+                        <img class="retina" src="https://custodianplc.com.ng/img/logo-white.png" data-logo="https://custodianplc.com.ng/img/logo-white.png" alt="custodian-logo">
+                    </a>
+
+                    <ul class="menuzord-menu menuzord-right c-nav_s-standard menuzord-indented scrollable" style="max-height: 400px;">
+                        <li class="social-item">
+                            <a href="https://twitter.com/CustodianPLC" target="blank" class="tooltips" data-placement="top" data-rel="tooltip" data-original-title="Twitter">
+                                <i class="fa fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="social-item">
+                            <a href="https://facebook.com/CustodianPLC/" target="blank" class="tooltips" data-placement="top" data-rel="tooltip" data-original-title="Facebook">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li b-5lkaa38pds="" class="social-item">
+                            <a href="https://www.instagram.com/custodianplc" target="blank" class="tooltips" data-placement="top" data-rel="tooltip" data-original-title="Instagram">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="scrollable-fix"></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+	<div class="page no-border">
+		<div class="page-inner p-none no-border">
+			<section class="section-primary no-border p-0" style="background-color:#ffffff;padding-bottom:0px">
+				<div class="container-fluid no-border p-0" id="custodian-product">
+					@RenderBody()
+				</div>
+			</section>
+		</div>
+	</div>
+	<script src="~/vendor/node_modules/sweetalert2/dist/sweetalert2.min.js"></script>
+	@*<script src="~/js/global.js" type="module" asp-append-version="true"></script>*@
+	@await RenderSectionAsync("script",false);
+</body>
+</html>

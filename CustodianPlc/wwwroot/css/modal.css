@@ -1,0 +1,279 @@
+﻿.stepwizard {
+	margin-bottom: 50px !important
+}
+
+label, label:hover {
+display: inline-block;
+margin-bottom: 0rem;
+}
+
+div {
+margin: 0px;
+}
+
+.section-primary {
+padding: 10px;
+}
+
+.smart-forms .field-label {
+padding-bottom: 2px;
+}
+
+.padform {
+padding-top: 0px;
+}
+
+.fontn {
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.error_meesage {
+display: none;
+margin: 0px;
+padding: 0px;
+}
+
+#email-error {
+color: white;
+}
+
+.colm4 {
+max-height: 100px;
+min-height: 100px
+}
+
+.btn-class {
+margin-top: 10px;
+}
+
+.smart-forms .file .button {
+position: absolute;
+bottom: 3px;
+right: 4px;
+float: none;
+height: 34px;
+line-height: 34px;
+padding: 0 16px;
+z-index: 10;
+}
+
+#modal {
+display: none;
+overflow: hidden;
+}
+
+#modal-overlay {
+display: block;
+position: fixed;
+width: 100%;
+height: 100%;
+background: black;
+opacity: 0.5;
+top: 0;
+left: 0;
+z-index: 999998;
+}
+
+#modal-container {
+display: block;
+position: fixed;
+width: 100%;
+height: 100%;
+top: 0;
+left: 0;
+z-index: 999998;
+overflow: hidden;
+}
+
+.modal-main {
+}
+
+#loader-modal {
+display: block;
+text-align: center;
+margin: 10% auto 0;
+}
+
+#loader-modal div {
+display: inline-block;
+border-radius: 3px;
+background: white;
+overflow: hidden;
+padding: 70px;
+}
+
+#loader-modal img {
+display: block;
+width: 150px;
+margin: 0 auto;
+}
+
+
+
+/*wiz steps*/
+.nav-link:hover {
+border: 1px solid #A50505 !important
+}
+
+.active-nav {
+border: 1px solid white !important;
+color: white !important;
+background-color: #A50505 !important
+}
+
+
+.loader {
+display: none;
+position: absolute;
+top: 50%;
+right: 10px;
+transform: translateY(-50%);
+width: 50px;
+height: 30px;
+background-image: url(../img/Loading_icon.gif);
+background-repeat: no-repeat;
+background-size: contain;
+z-index: 10;
+}
+
+.input-group {
+position: relative;
+}
+
+#loader {
+position: absolute;
+right: 10px;
+top: 50%;
+transform: translateY(-50%);
+}
+
+.stepwizard-step p {
+margin-top: 2px;
+}
+
+p {
+margin-top: 0;
+margin-bottom: 0.2rem;
+}
+
+caption {
+padding-top: 0.75rem;
+padding-bottom: 0.75rem;
+color: #636c72;
+text-align: center;
+caption-side: top;
+}
+
+#display-amounts {
+display: none;
+}
+
+
+
+
+
+
+
+.page-header {
+padding: 25px 0px;
+margin: 0;
+background-image: url(..);
+background-repeat: repeat;
+background-position: center top;
+background-size: auto;
+}
+
+section:not(.image-slogan) {
+border-bottom: 1px solid #eee;
+}
+
+section:not(.image-slogan) {
+border-bottom: 1px solid #eee;
+}
+
+.hpadding {
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.main-color .feature-box.boxed, .main-color .form-control, .main-color .call-to-action, .alternate-color, .page-header {
+background-color: #fbfbfb;
+}
+
+.special-heading.line span:before, .special-heading.line span:after, hr, .footer.footer-minimal, .t-bordered {
+border-top-color: #e8e8e8;
+}
+
+.special-heading.line span:before,
+.special-heading.line span:after,
+.top-bar, .special-heading.word-underline
+.special-heading-inner,
+.panel-group .panel,
+.accordion.accordion-default
+.panel-default,
+.xblog.xblog-type-5.xblog-list article.xblog-item:not(:last-child),
+.b-bordered {
+border-bottom-color: #e8e8e8;
+}
+
+.b-bordered {
+border-bottom: 1px solid #e8e8e8;
+}
+
+.t-bordered {
+border-top: 1px solid #e8e8e8;
+}
+
+.hpadding {
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.page-header {
+padding: 25px 0px;
+margin: 0;
+background-image: url(../../img/ff_rp_bkg2.png);
+background-repeat: repeat;
+background-position: center top;
+background-size: auto;
+}
+
+.page-header, .alternate-color {
+background-color: #fbfbfb;
+}
+
+.page-header .title {
+font-size: 20px;
+display: inline-block;
+margin: 0;
+vertical-align: middle;
+vertical-align: -webkit-baseline-middle;
+}
+
+.c-breadcrumb-6-inner, .c-breadcrumb-5-inner, .c-breadcrumb-4-inner, .c-breadcrumb-3-inner, .c-breadcrumb-2-inner, .c-breadcrumb-1-inner {
+padding-left: 0;
+margin-bottom: 0;
+}
+
+.c-breadcrumb-1-item {
+float: left;
+margin-right: 14px;
+list-style: none;
+}
+
+c-breadcrumb-1-link {
+position: relative;
+display: block;
+height: 32px;
+line-height: 32px;
+padding: 0 10px;
+font-size: 14px;
+color: #111111;
+background-color: #eeeef0;
+text-decoration: none !important;
+}
+
+.product-content {
+padding-top: 20px
+}

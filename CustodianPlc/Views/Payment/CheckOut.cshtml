@@ -1,0 +1,105 @@
+﻿<div class="container product-content" style="padding-top: 20px">
+	<div id="success">
+		<section class="section-primary" style="background-color:#ffffff;">
+			<div class="container-fluid" style="padding-top:15px; padding-left:100px;">
+				<div class="row">
+					<div class="col-md-12 form-sha">
+						<h4 class="text-center to-1" style="margin-top: 15px;">
+							<a href="">
+								<span class="pull-left back-arrow">
+									<i class="fa fa-arrow-left"></i>
+								</span>
+							</a>
+							Payment Summary
+						</h4>
+						<!-- life checkout  -->
+						<input type="hidden" id="paystack-email" value="">
+						<input type="hidden" id="paystack-phone" value="">
+						<div class="row">
+							<div class="col-md-6 mb-2">
+								<label for="engine">First Name</label>
+								<input class="form-control" type="text" value="" readonly="">
+							</div>
+
+							<div class="col-md-6 mb-2">
+								<label for="engine">Middle Name</label>
+								<input class="form-control" type="text" value="" readonly="">
+							</div>
+
+							<div class="col-md-6 mb-2">
+								<label for="engine">Last Name</label>
+								<input class="form-control" type="text" value="" readonly="">
+							</div>
+
+							<div class="col-md-6 mb-2">
+								<label for="engine">Product</label>
+								<input class="form-control" type="text" value="" readonly="">
+							</div>
+
+						</div>
+						<div class="row">
+							<div class="col-md-6 mb-2">
+								<label for="engine">Cover Type</label>
+								<input class="form-control" type="text" value="" readonly="">
+							</div>
+
+							<div class="col-md-6 mb-2">
+								<label for="engine">Payment Frequency</label>
+								<input class="form-control" value="" type="text" readonly="">
+							</div>
+						</div>
+						<div class="row">
+
+							<div class="col-md-6 mb-2">
+								<label for="engine">Policy Term</label>
+								<input class="form-control" value="" type="text" readonly="">
+							</div>
+
+							<div class="col-md-6 mb-2">
+								<label for="engine">Amount to be Paid (Premium)</label>
+								<input class="form-control" type="text" id="save_amount" value="" readonly="">
+							</div>
+
+							<div class="col-md-6 mb-2">
+								<label for="switch_fee">Switch Fee</label>
+								<input class="form-control" type="text" id="switch_fee" readonly="">
+							</div>
+
+							<div class="col-md-6 mb-2">
+								<label for="total_amount_payable">Total Amount Payable</label>
+								<input class="form-control" type="text" id="total_amount_payable" readonly="">
+							</div>
+
+						</div>
+						<hr>
+						<div class="row">
+							<div class="col-md-6 col-sm-12">
+								<label>
+									<input type="checkbox" checked id="referral_check" /> I was referred by an agent, staff, or broker
+								</label>
+								<div id="referral_code_box">
+									<label for="referral_code">Referral Code</label>
+									<input name="referral_code"
+										   class="form-control"
+										   type="text"
+										   id="referral_code"
+										   focus>
+								</div>
+							</div>
+						</div>
+						<hr>
+						<a href="javascript:;">
+							<img src="" class="img-responsive hef" style="height: 60px;margin: 0 auto;" onclick="hotPaystack()">
+						</a>
+						<img src="" class="img-responsive hef" style="padding: 10px 40px;">
+						<!-- </form> -->
+					</div>
+					<!-- paystack end -->
+				</div>
+				<div class="col-md-6 col-sm-6">
+					<button onclick="showReferralPrompt()" class="btn btn-primary btn-block">Input Referral Code</button>
+				</div>
+			</div>
+		</section>
+	</div>
+</div>

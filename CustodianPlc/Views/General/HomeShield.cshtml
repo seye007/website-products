@@ -1,0 +1,213 @@
+﻿@model LifeQuoteVm
+@section style{
+    <link href="~/css/modal.css" rel="stylesheet" asp-append-version="true" />
+}
+<div id="modal">
+    <div id="modal-overlay"></div>
+    <div id="modal-container">
+        <div class="modal-main" id="loader-modal">
+            <div>
+                <img src="https://custodianplc.com.ng/img/loader.gif">
+            </div>
+        </div>
+    </div>
+</div>
+
+<section class="page-header b-bordered t-bordered hpadding">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <h1 class="title mt-5">@ViewData["productName"]</h1>
+                <nav class="c-breadcrumb-1 -style-icons pull-right">
+                    <ol class="c-breadcrumb-1-inner">
+
+                        <li class="c-breadcrumb-1-item">
+                            <a href="https://custodianplc.com.ng" class="c-breadcrumb-1-link">
+                                <i class="c-breadcrumb-1-icon fa fa-home" aria-hidden="true"></i>
+                            </a>
+                        </li>
+
+                        <li class="c-breadcrumb-1-item">
+                            <a href="https://custodianplc.com.ng/life-products" class="c-breadcrumb-1-link">
+                                <i class="c-breadcrumb-1-icon fa fa-file-text-o" aria-hidden="true"></i>
+                                Life Insurance
+                            </a>
+                        </li>
+
+                        <li class="c-breadcrumb-1-item">
+                            <a href="https://custodianplc.com.ng/personal-provident-plan" class="c-breadcrumb-1-link">
+                                <i class="c-breadcrumb-1-icon " aria-hidden="true"></i>
+                                @ViewData["productName"]
+                            </a>
+                        </li>
+                    </ol>
+                </nav>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="container product-content">
+<div class="stepwizard col-md-12 formtop-width">
+    <div class="stepwizard-row setup-panel">
+        <div class="stepwizard-step">
+            <a class="btn btn-primary disable btn-circle stepwizard-1" href="#step-2" type="button" disabled>1</a>
+            <p>Personal Information</p>
+        </div>
+        <div class="stepwizard-step">
+            <a class="btn btn-default disable btn-circle stepwizard-2" href="#step-2" type="button" disabled>2</a>
+            <p>Beneficiary Details</p>
+        </div>
+        <div class="stepwizard-step">
+            <a class="btn btn-default disable btn-circle stepwizard-3" href="#step-3" type="button">3</a>
+            <p>Quote Summary</p>
+        </div>
+    </div>
+</div>
+<div class="row" style="margin-bottom:50px">
+    <div class="col-md-12 order-md-1 order-2 form-sha">
+        <form id="product-form" role="form" asp-antiforgery="true" method="post" enctype="multipart/form-data">
+           
+            <input type="hidden" id="quote_code" name="quote_code" value="">
+            <input type="hidden" id="premium" name="premium" value="0">
+            <input type="hidden" id="product_name" name="product_name" value="HomeShield">
+
+
+          
+            <!-- Step 3 :  -->
+            <span id="summaryEmail"></span>
+            <div class="row setup-content pady" id="step-3" style="margin:0px; display: none">
+                <div class="col-md-12" style="margin-top: 10px;">
+                    <div class="col-md-12">
+                        <section class="section-primary pt-none">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12 mt-5" style="margin-top:40px;">
+                                        <table class="table table-bordered">
+                                            <caption style="font-size: 16px;">Quotation Detail</caption>
+                                            <!-- Step 3 :  -->
+                                            <span id="summaryEmail"></span>
+                                            <div class="row setup-content pady" id="step-3" style="margin:0px; display:none">
+                                                <div class="col-md-12" style="margin-top: 10px;">
+                                                    <div class="col-md-12">
+                                                        <section class="section-primary pt-none">
+                                                            <div class="container">
+                                                                <div class="row">
+                                                                    <div class="col-md-12 mt-5" style="margin-top:40px;">
+                                                                        <table class="table table-bordered">
+                                                                            <thead>
+                                                                                <tr>
+                                                                                    <th style="font-size: 16px;">
+                                                                                        Quotation Detail
+                                                                                    </th>
+                                                                                    <th style="font-size: 16px;">
+                                                                                        Quotation No.:<span id="summary-quote-code"></span>
+                                                                                    </th>
+                                                                                </tr>
+                                                                            </thead>
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td><strong>Client Name:</strong></td>
+                                                                                    <td><span id="summary-client-name"></span></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td><strong>Occupation:</strong></td>
+                                                                                    <td><span id="summary-occupation"></span></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td><strong>Product Name:</strong></td>
+                                                                                    <td><span id="summary-product-name"></span></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td><strong>Insurance Start Date:</strong></td>
+                                                                                    <td><span id="summary-start-date"></span></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td><strong>Policy Period: </strong></td>
+                                                                                    <td><span id="summary-policy-period"></span></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td><strong>Number of Unit:</strong></td>
+                                                                                    <td><span id="summary-units"></span></td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td><strong>Premium:</strong></td>
+                                                                                    <td> <span id="summary-premium"></span> </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                        <table>
+                                                                            <tbody>
+                                                                                <tr>
+                                                                                    <td>
+                                                                                        <p style="text-align: center;">
+                                                                                            If you have questions about the status of your quotation,
+                                                                                            please contact: carecentre@custodianinsurance.com
+                                                                                        </p>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </tbody>
+                                                                        </table>
+                                                                        <nav id="tp-and-ft-buttonset"
+                                                                             class="c-breadcrumb-1 c-breadcrumb-1-onCheckout -style-icons pull-left">
+                                                                            <ol class="c-breadcrumb-1-inner">
+                                                                                <li class="c-breadcrumb-1-item">
+                                                                                    <a href="javascript:;"
+                                                                                       onclick="#" class="c-breadcrumb-1-link">
+                                                                                        <i class="c-breadcrumb-1-icon fa fa-download" aria-hidden="true"></i>
+                                                                                        Download Quote
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="c-breadcrumb-1-item">
+                                                                                    <a href="javascript:;"
+                                                                                       onclick="#"
+                                                                                       class="c-breadcrumb-1-link">
+                                                                                        <i class="c-breadcrumb-1-icon fa fa-envelope" aria-hidden="true"></i>
+                                                                                        Email Quote
+                                                                                    </a>
+                                                                                </li>
+                                                                                <li class="c-breadcrumb-1-item">
+                                                                                    <a href="javascript:;"
+                                                                                       onclick="#"
+                                                                                       class="c-breadcrumb-1-link">
+                                                                                        <i class="c-breadcrumb-1-icon fa fa-envelope" aria-hidden="true"></i>
+                                                                                        Save Quote
+                                                                                    </a>
+                                                                                </li>
+                                                                            </ol>
+                                                                        </nav>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </section>
+                                                        <div class="col-md-12 pady" style="margin-bottom: 15px">
+                                                            <div class="row">
+                                                                <div class="col-md-6 col-sm-12">
+                                                                    <button class="btn btn-primary btn-class prevBtn pull-left" id="product_third_step_prev" type="button">Previous</button>
+                                                                </div>
+                                                                <div class="col-md-6 col-sm-12">
+                                                                    <button style="color: #fff;" id="buy-now-button" class="btn btn-success btn-class pull-right color1"
+                                                                            asp-controller="sales" asp-action="capital-builder" type="submit" onclick="submitFormData(this)">
+                                                                        Buy Now!
+                                                                    </button>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
+            </div>
+
+        </form>
+        @section script{
+            <script src="~/js/homeshield.js" asp-append-version="true"></script>
+        }
+    </div>
+</div>
+</div>

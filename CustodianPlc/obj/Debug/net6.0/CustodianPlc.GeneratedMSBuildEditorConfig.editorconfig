@@ -1,0 +1,152 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = CustodianPlc
+build_property.RootNamespace = CustodianPlc
+build_property.ProjectDir = C:\Users\hp\Desktop\custodian newwwww\website-function-repo\CustodianPlc\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\hp\Desktop\custodian newwwww\website-function-repo\CustodianPlc
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/hp/Desktop/custodian newwwww/website-function-repo/CustodianPlc/Views/Annuities/DeferredAnnuity.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5udWl0aWVzXERlZmVycmVkQW5udWl0eS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/custodian newwwww/website-function-repo/CustodianPlc/Views/Annuities/ImmediateAnnuity.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5udWl0aWVzXEltbWVkaWF0ZUFubnVpdHkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/custodian newwwww/website-function-repo/CustodianPlc/Views/Annuities/RetireeLifeAnnuity.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5udWl0aWVzXFJldGlyZWVMaWZlQW5udWl0eS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/custodian newwwww/website-function-repo/CustodianPlc/Views/Annuities/_BenefitLifePartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQW5udWl0aWVzXF9CZW5lZml0TGlmZVBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/custodian newwwww/website-function-repo/CustodianPlc/Views/AutoInsurance/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0b0luc3VyYW5jZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/custodian newwwww/website-function-repo/CustodianPlc/Views/AutoInsurance/_AutoInsuranceScriptPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQXV0b0luc3VyYW5jZVxfQXV0b0luc3VyYW5jZVNjcmlwdFBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/custodian newwwww/website-function-repo/CustodianPlc/Views/EndowmentPolicy/EducationEndowment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRW5kb3dtZW50UG9saWN5XEVkdWNhdGlvbkVuZG93bWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/custodian newwwww/website-function-repo/CustodianPlc/Views/EventInsurance/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRJbnN1cmFuY2VcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/custodian newwwww/website-function-repo/CustodianPlc/Views/EventInsurance/_EventPartialScript.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRXZlbnRJbnN1cmFuY2VcX0V2ZW50UGFydGlhbFNjcmlwdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/custodian newwwww/website-function-repo/CustodianPlc/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/custodian newwwww/website-function-repo/CustodianPlc/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/custodian newwwww/website-function-repo/CustodianPlc/Views/ProtectionPolicy/TermAssurance.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvdGVjdGlvblBvbGljeVxUZXJtQXNzdXJhbmNlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/custodian newwwww/website-function-repo/CustodianPlc/Views/SafetyPlusPlan/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FmZXR5UGx1c1BsYW5cSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/custodian newwwww/website-function-repo/CustodianPlc/Views/SafetyPlusPlan/_SafetyPlusScriptPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FmZXR5UGx1c1BsYW5cX1NhZmV0eVBsdXNTY3JpcHRQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/custodian newwwww/website-function-repo/CustodianPlc/Views/SavingAndInvestment/CapitalBuilder.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2F2aW5nQW5kSW52ZXN0bWVudFxDYXBpdGFsQnVpbGRlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/custodian newwwww/website-function-repo/CustodianPlc/Views/SavingAndInvestment/EsusuShield.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2F2aW5nQW5kSW52ZXN0bWVudFxFc3VzdVNoaWVsZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/custodian newwwww/website-function-repo/CustodianPlc/Views/SavingAndInvestment/InvestmentPlusPlan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2F2aW5nQW5kSW52ZXN0bWVudFxJbnZlc3RtZW50UGx1c1BsYW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/custodian newwwww/website-function-repo/CustodianPlc/Views/Shared/CookieConsent.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvb2tpZUNvbnNlbnQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/custodian newwwww/website-function-repo/CustodianPlc/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/custodian newwwww/website-function-repo/CustodianPlc/Views/Shared/_CapitalBuilderScriptPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9DYXBpdGFsQnVpbGRlclNjcmlwdFBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/custodian newwwww/website-function-repo/CustodianPlc/Views/Shared/_GlobalScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9HbG9iYWxTY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/custodian newwwww/website-function-repo/CustodianPlc/Views/Shared/_LifeBenefit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MaWZlQmVuZWZpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/custodian newwwww/website-function-repo/CustodianPlc/Views/Shared/_LifePersonalInformation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MaWZlUGVyc29uYWxJbmZvcm1hdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/custodian newwwww/website-function-repo/CustodianPlc/Views/Shared/_LifePersonalInformationPartialScript.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MaWZlUGVyc29uYWxJbmZvcm1hdGlvblBhcnRpYWxTY3JpcHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/custodian newwwww/website-function-repo/CustodianPlc/Views/Shared/_LifeProductStylePartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MaWZlUHJvZHVjdFN0eWxlUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/custodian newwwww/website-function-repo/CustodianPlc/Views/Shared/_PersonalInformation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QZXJzb25hbEluZm9ybWF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/custodian newwwww/website-function-repo/CustodianPlc/Views/Shared/_PersonalInfoValidationScriptPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9QZXJzb25hbEluZm9WYWxpZGF0aW9uU2NyaXB0UGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/custodian newwwww/website-function-repo/CustodianPlc/Views/Shared/_Success.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TdWNjZXNzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/custodian newwwww/website-function-repo/CustodianPlc/Views/Shared/_SummaryPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9TdW1tYXJ5UGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/custodian newwwww/website-function-repo/CustodianPlc/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/custodian newwwww/website-function-repo/CustodianPlc/Views/Shared/_WizardStep.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9XaXphcmRTdGVwLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/custodian newwwww/website-function-repo/CustodianPlc/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/custodian newwwww/website-function-repo/CustodianPlc/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/hp/Desktop/custodian newwwww/website-function-repo/CustodianPlc/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-kow3yc2fh8

@@ -1,0 +1,257 @@
+﻿.bg {
+background-color: #900000;
+}
+
+
+.policy-button {
+background-color: #900000;
+color: white;
+border: 2px solid #900000;
+padding: 0.8em 1.2em;
+font-size: 1.2em;
+cursor: pointer;
+transition: background-color 0.3s ease;
+display: block;
+margin-top: 15px;
+}
+
+.policy-button:hover {
+background-color: #750000;
+}
+
+
+
+.card {
+border: none;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+margin: 0 auto;
+}
+
+.card-header {
+background-color: #900000;
+color: white;
+border-bottom: none;
+border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+padding: 20px;
+text-align: center;
+}
+
+.card-title {
+font-weight: bold;
+margin-bottom: 20px
+}
+
+.card-body {
+padding: 30px;
+background-color: whitesmoke;
+}
+
+.banner-para {
+background-color: #ededed;
+border-radius: 10px;
+padding: 20px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.banner-para h4 {
+color: #4d4d4d;
+}
+
+.benefits-list {
+list-style: none;
+padding-left: 0;
+}
+
+.benefits-list li {
+display: flex;
+align-items: center;
+color: #4d4d4d;
+margin-bottom: 15px;
+}
+
+.benefits-list i {
+color: #900000;
+font-size: 2rem;
+margin-right: 15px;
+}
+
+.policy-form label,
+.policy-form span {
+color: #4d4d4d;
+}
+
+.policy-input {
+width: 100%;
+margin-top: 5px;
+border: 1px solid #ccc;
+border-radius: 5px;
+background-color: #f5f5f5;
+}
+
+.policy-button {
+background-color: #900000;
+color: #fff;
+border: none;
+border-radius: 5px;
+padding: 10px 20px;
+margin-top: 10px;
+float: right;
+cursor: pointer;
+}
+
+.form-sha {
+-webkit-box-shadow: -1px 1px 43px 1px rgba(219,216,219,1);
+-moz-box-shadow: -1px 1px 43px 1px rgba(219,216,219,1);
+box-shadow: -1px 1px 43px 1px rgba(219,216,219,1);
+}
+
+
+.info-item {
+margin-bottom: 15px;
+}
+
+.info-label {
+font-weight: bold;
+}
+
+.info-value {
+color: #6f6f6f;
+}
+
+.btn-edit {
+background-color: #A50505;
+color: #fff;
+border: none;
+border-radius: 5px;
+padding: 10px 20px;
+display: block;
+margin: 20px auto;
+}
+
+.renewal-form {
+border-top: 1px solid #ccc;
+padding-top: 20px;
+margin-top: 30px;
+}
+
+.renewal-form label {
+font-weight: bold;
+}
+
+.renewal-form select,
+.renewal-form input[type="date"] {
+width: 100%;
+padding: 10px;
+margin-top: 5px;
+border: 1px solid #ccc;
+border-radius: 5px;
+background-color: #f5f5f5;
+}
+
+.renewal-form .form-group {
+margin-bottom: 20px;
+}
+
+.renewal-form button,
+.policy-details-button,
+.payment-button {
+background-color: #A50505;
+color: #fff;
+border: none;
+border-radius: 5px;
+padding: 10px 20px;
+}
+
+.renewal-summary {
+background-color: whitesmoke;
+border-radius: 10px;
+padding: 20px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+margin-bottom: 30px;
+}
+
+.renewal-summary h4 {
+color: #4d4d4d;
+margin-bottom: 20px;
+}
+
+.renewal-summary span {
+color: #4d4d4d;
+}
+
+
+.back-button {
+background-color: #17a2b8;
+color: #fff;
+border: none;
+border-radius: 5px;
+padding: 10px 20px;
+cursor: pointer;
+width: 100%;
+}
+
+.footer {
+background-color: #333333;
+color: white;
+font-size: 1.2em;
+}
+
+.footer h6 {
+background-color: #333333;
+color: white;
+font-size: 1.2em;
+}
+
+@media (max-width: 770px) {
+.footer-item {
+padding-top: 1.5em;
+}
+}
+
+@media (max-width: 445px) {
+.footer-last-item {
+display: none;
+}
+}
+
+
+form .button {
+margin-top: 25px;
+border: none;
+cursor: pointer;
+border-radius: 6px;
+transition: all 0.2s ease;
+color: white !important;
+border: none;
+}
+
+form .button.active {
+background: #900000;
+pointer-events: auto
+}
+
+@media(max-width:767px) {
+#content-container {
+height: auto !important;
+}
+}
+
+#content-container {
+height: auto;
+height: 600px
+}
+
+.thank-you {
+text-align: center;
+margin-top: 40px;
+}
+
+.certificate-button {
+margin-top: 20px;
+}
+
+.product-content {
+padding-top: 70px
+}

@@ -1,0 +1,255 @@
+﻿@{
+	Layout = "_LandingPageLayout";
+}
+
+<div class="container-fluid bg-overlay d-flex justify-content-center align-items-center">
+	<div class="row text-center flex-column">
+		<h1>Get a Quote Today</h1>
+		<p style="color:white;">Protect your loved ones and your assets with our insurance plans.</p>
+
+	</div>
+</div>
+<!-- Products section -->
+<section class="products-section" style="background-color:white;">
+	<div class="container">
+		<h3 class="section-title">General Insurance Products</h3>
+		<div class="row">
+			<div class="col-md-4 col-sm-12">
+				<div class="product-card">
+					<img src="~/img/sedan.png" height="40" style="margin-top:-5px">
+					<h2 class="product-title-2" style="display:inline;"> Auto Insurance</h2>
+					<p class="text-justify">
+						Protect your car from damage and theft with our auto insurance plan.
+						Our coverage includes protection against accidents, theft, and damage to your vehicle.
+					</p>
+					<a asp-action="Index" asp-controller="AutoInsurance" class="bg-c">Get Quote</a>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-12">
+				<div class="product-card">
+					<img src="~/img/calendar22.png" height="40" style="margin-top:-5px">
+					<h2 class="product-title-2" style="display:inline;">Event Insurance</h2>
+					<p class="text-justify">
+						Whether you're hosting a wedding, a concert,
+						or a corporate event, our event insurance policies offer comprehensive
+						coverage for any unexpected incidents that may occur.
+					</p>
+					<a asp-action="Index" asp-controller="EventInsurance" class="bg-c">Get Quote</a>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-12">
+				<div class="product-card">
+					<img height="40" src="~/img/plane.png" style="margin-top:-5px">
+					<h2 class="product-title-2" style="display:inline;">Travel Insurance</h2>
+					<p class="text-justify">
+						Whether you're traveling for business or pleasure, our travel insurance policies provide
+						the protection you need to enjoy your trip with confidence.
+					</p>
+					<a href="#" class="bg-c">Get Quote</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-4 col-sm-12">
+				<div class="product-card">
+					<img height="40" src="~/img/home.png" style="margin-top:-5px">
+					<h2 class="product-title-2" style="display:inline;">Home Insurance</h2>
+					<p class="text-justify"> Protect your home and your belongings with our reliable home insurance policies. As well as liability coverage for injuries that may occur on your property.</p><a href="#">Get Quote</a>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-12">
+				<div class="product-card">
+					<img height="40" src="~/img/health-insurance-symbol-of-a-man-with-broken-arm.png" style="margin-top:-5px">
+					<h2 class="product-title-2" style="display:inline;">SafetyPlus</h2>
+					<p class="text-justify">
+						Our Safety Plus insurance policies offer an added layer of protection for you and your loved ones.
+						Our coverage includes protection against accidents
+					</p>
+					<a asp-action="Index" asp-controller="SafetyPlusPlan">Get Quote</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="products-section container-fluid">
+	<div class="row no-gutters">
+		<div class="col-sm-12 col-md-6 d-flex align-items-center justify-content-center" style="background-color:white; color: white">
+			<div>
+				<h2><strong class="fw-6" style="color:#A50505">Life Insurance</strong></h2>
+				<p class="text-justify" style="padding:50px; text-align:left; color:black">Having insurance coverage gives you the peace of mind and confidence to face any unforeseen events that may happen in your life. With coverage comes the confidence to live life to the fullest, without worrying about the unexpected. Invest in your confidence today by getting the right insurance coverage.</p>
+			</div>
+		</div>
+		<div class="col-md-6 col-sm-12" style="overflow:hidden">
+			<img src="~/img/pexels-anna-shvets-113692891.jpg" width="100%">
+		</div>
+	</div>
+</section>
+<!-- life product -->
+<section class="products-section" style="background-color:#fbfbfb !important;">
+	<div class="container">
+		<h3 class="section-title">Savings and Investment</h3>
+		<div class="row">
+			<div class="col-md-3 col-sm-12">
+				<div class="product-card">
+					<img height="40" src="~/img/loan1.png" style="margin-top:-5px">
+					<h2 class="product-title-2" style="display:inline;">Capital Builder</h2>
+					<p class="text-justify">Capital Builder Plan is an investment product that allows the policyholder to determine the amount of regular contribution he wishes to periodically make.</p>
+					<a href="#" class="bg-c">Get Quote</a>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-12">
+				<div class="product-card">
+					<img src="~/img/money-jar.png" height="40" style="margin-top:-5px">
+					<h2 class="product-title-2" style="display:inline;">Esusu Shield</h2>
+					<p class="text-justify">Esusu shield uniquely combines features of Ajo, Esusu, Thrift and Mutual financing to meet the savings and financing needs. It also provides personal accident.</p>
+					<a href="#" class="bg-c">Get Quote</a>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-12">
+				<div class="product-card">
+					<img height="40" src="~/img/investment2.png">
+					<h2 class="product-title-2" style="display:inline;">Investment Plus @*Plan*@</h2>
+					<p class="text-justify">The plan is a combination of investment and protection. It provides protection up to age sixty and offers various investment options to suit the policyholder's risk appetite.</p>
+					<a href="#" class="bg-c">Get Quote</a>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-12">
+				<div class="product-card">
+
+					<img height="40" style="margin-top:-5px" src="~/img/asset-management.png">
+					<h2 class="product-title-2" style="display:inline;">Wealth Plus Plan</h2>
+					<p class="text-justify">
+						WealthPlus Plan is a policy designed to help you create and accumulate wealth by combining the features of Insurance and savings to meet your unique financial needs.
+					</p><a href="#">Get Quote</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="products-section container-fluid" style="background-color:white;">
+	<div>
+		<h3 class="section-title">Endowment Policies</h3>
+		<div class="row">
+			<div class="col-md-4 col-sm-12">
+				<div class="product-card">
+					<img height="40" src="~/img/mortarboard.png">
+					<h2 class="product-title-2" style="display:inline;">Education Endowment</h2>
+					<p class="text-justify">
+						The plan provides benefit for the payment of policyholder’s child school fees and other incidentals at any chosen level of his/her education – Primary, Secondary or Tertiary level.
+					</p><a href="#">Get Quote</a>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-12">
+				<div class="product-card">
+					<img height="40" src="~/img/investment.png">
+					<h2 class="product-title-2" style="display:inline;">Life Time Harvest</h2>
+					<p class="text-justify">
+						The policy is an endowment assurance plan that pays out a percentage of the sum assured after a predetermined number of years has been completed.
+					</p><a href="#">Get Quote</a>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-12">
+				<div class="product-card">
+
+					<img height="40" src="~/img/financial-advisor.png">
+					<h2 class="product-title-2" style="display:inline;">Ordinary Endowment</h2>
+					<p class="text-justify"> This contract pays the guaranteed sum assured at maturity or at earlier death. Maximum age at entry is 60 years and additional fatal accident benefit of up to 100% is available.</p><a href="#">Get Quote</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<section class="products-section container-fluid">
+	<div class="row no-gutters">
+		<div class="col-sm-12 col-md-6 d-flex align-items-center justify-content-center" style="background-color:white; color: white">
+			<div>
+				<h2><strong class="fw-6" style="color:#A50505">Coverage = Confidence</strong></h2>
+				<p class="text-justify" style="padding:50px; text-align:left; color:black">Having insurance coverage gives you the peace of mind and confidence to face any unforeseen events that may happen in your life. With coverage comes the confidence to live life to the fullest, without worrying about the unexpected. Invest in your confidence today by getting the right insurance coverage.</p>
+			</div>
+		</div>
+		<div class="col-md-6 col-sm-12" style="overflow:hidden">
+			<img src="~/img/pexels-tyler-sherrington-12577426.jpg" width="100%">
+		</div>
+	</div>
+</section>
+<section class="products-section" style="background-color:#fbfbfb">
+	<div class="container">
+		<h3 class="section-title">Protection Policies</h3>
+		<div class="row">
+			<div class="col-md-3 col-sm-12">
+				<div class="product-card">
+					<img height="40" src="~/img/life-insurance1.png" style="margin-top:-5px">
+					<h2 class="product-title-2" style="display:inline;">Terms Assurance</h2>
+					<p class="text-justify">
+						Term assurance policy is the oldest and cheapest form of life assurance cover. It is designed to pay the guaranteed
+						sum assured on.
+					</p>
+					<a href="#">Get Quote</a>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-12">
+				<div class="product-card">
+					<img height="40" src="~/img/insurance.png" style="margin-top:-5px">
+					<h2 class="product-title-2" style="display:inline">Whole Life @*Assurance*@</h2>
+					<p class="text-justify"> This contract pays the guaranteed sum assured any time death occurs. Depending on the arrangement,
+						premium payment may stop at age 60.
+					</p>
+					<a href="#">Get Quote</a>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-12">
+				<div class="product-card">
+
+					<img height="40" src="~/img/family1.png" style="margin-top:-5px">
+					<h2 class="product-title-2" style="display:inline;">Dignity Insurance</h2>
+					<p class="text-justify"> The Custodian Dignity plan is a joint life policy which pays the dignified lump sum (sum assured) 
+						on first death. The policy is unitized.
+					</p>
+					<a href="#">Get Quote</a>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-12">
+				<div class="product-card">
+
+					<img height="40" src="~/img/home1.png" style="margin-top:-5px">
+					<h2 class="product-title-2" style="display:inline;">Tuition Insurance</h2>
+					<p class="text-justify">Tuition Protection plan is designed to guarantee the education of pupils and students 
+						in the event of death or total permanent disability.
+					</p>
+					<a href="#">Get Quote</a>
+				</div>
+			</div>
+		</div>
+		</div>
+</section>
+<section class="products-section" style="background-color:white;">
+	<div class="container">
+		<h3 class="section-title">Annuities</h3>
+		<div class="row">
+			<div class="col-md-4 col-sm-12">
+				<div class="product-card">
+					<img height="40" src="~/img/retirement2.png" style="margin-top:-5px">
+					<h2 class="product-title-2" style="display:inline;">Retiree Life Annuity</h2>
+					<p class="text-justify"> Life Annuity Plan is a series of regular monthly or quarterly payments made to a retiree (called an Annuitant) for the rest of his life upon payment of the purchase amount which is usually paid once.</p><a href="#">Get Quote</a>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-12">
+				<div class="product-card">
+					<img height="40" src="~/img/profit1.png" style="margin-top:-5px">
+					<h2 class="product-title-2" style="display:inline;">Immediate Annuity</h2>
+					<p class="text-justify"> This is an annuity policy taken by an insured for the purpose of getting regular streams of future income. The annuity plan allows individuals to use lump sum deposit to buy annuity.</p><a href="#">Get Quote</a>
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-12">
+				<div class="product-card">
+
+					<img height="40" src="~/img/investment22.png" style="margin-top:-5px">
+					<h2 class="product-title-2" style="display:inline;">Deferred Annuity</h2>
+					<p class="text-justify"> This is an annuity policy taken by a proposer for the purpose of getting payments upon retirement or at some other specified future date. The annuity plan allows policy owners to save towards a deferred income. </p><a href="#">Get Quote</a>
+				</div>
+			</div>
+		</div>
+	</div>
+	</section>
+
