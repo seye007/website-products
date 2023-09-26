@@ -277,3 +277,8 @@ text-decoration: none !important;
 .product-content {
 padding-top: 20px
 }
+
+.btn-primary.disabled, .btn-primary:disabled {
+background-color: #900000;
+border-color: #900000;
+}

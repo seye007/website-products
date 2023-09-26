@@ -10,23 +10,10 @@
 	<link rel="apple-touch-icon" href="img/apple-touch-icon.png">
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600" rel="stylesheet">
 	<link rel="stylesheet" href="~/vendor/bootstrap/css/bootstrap.min.css">
-	<link rel="stylesheet" href="~/vendor/node_modules/sweetalert2/dist/sweetalert2.css">
-	<link href="~/css/main-shortcodes.css" rel="stylesheet" />
-	<link href="~/css/shortcodes.css" rel="stylesheet" />
-	<link href="~/css/header.css" rel="stylesheet" />
-	<link rel="stylesheet" href="~/css/custom.css">
-	<link href="~/css/form-element.css" rel="stylesheet" />
-	<link href="~/css/responsive.css" rel="stylesheet" />
-	<link href="~/css/utilities.css" rel="stylesheet" />
-	<link href="~/css/skins/default.css" rel="stylesheet" />
-	<link href="~/vendor/pricing-tables/main.css" rel="stylesheet" />
-	<link href="~/vendor/pricing-tables/responsive.css" rel="stylesheet" />
-	<link href="~/vendor/pricing-tables/style_9.css" rel="stylesheet" />
-	<link rel="stylesheet" href="~/css/smart-forms/smart-addons.css" />
-	<link rel="stylesheet" href="~/css/smart-forms/smart-forms.css" />
-	<link rel="stylesheet" href="~/css/moneypage.css">
-	<script src="https://kit.fontawesome.com/beb513e456.js" crossorigin="anonymous"></script>
-	<link href="~/css/product.css" rel="stylesheet" />
+    <link href="~/css/header.css" rel="stylesheet" />
+    <link href="~/css/shortcodes.css" rel="stylesheet" />
+    <link href="~/css/custom.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/beb513e456.js" crossorigin="anonymous"></script>
 	@await RenderSectionAsync("style", false)
 </head>
 <body>
@@ -61,14 +48,8 @@
             </div>
         </div>
     </header>
-	<div class="page no-border">
-		<div class="page-inner p-none no-border">
-			<section class="section-primary no-border p-0" style="background-color:#ffffff;padding-bottom:0px">
-				<div class="container-fluid no-border p-0" id="custodian-product">
-					@RenderBody()
-				</div>
-			</section>
-		</div>
+	<div>
+		@RenderBody()
 	</div>
 	<script src="~/vendor/node_modules/sweetalert2/dist/sweetalert2.min.js"></script>
 	@*<script src="~/js/global.js" type="module" asp-append-version="true"></script>*@

@@ -1,0 +1,126 @@
+	<div class="page no-border">
+		<div class="page-inner p-none no-border">
+			<section class="section-primary no-border p-0" style="background-color:#ffffff;padding-bottom:0px">
+				<div class="container-fluid no-border p-0" id="custodian-product">
+                    <div id="modal">
+	<div id="modal-overlay"></div>
+	<div id="modal-container">
+		<div class="modal-main" id="loader-modal">
+			<div>
+				<img src="https://custodianplc.com.ng/img/loader.gif">
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container product-content">
+	<div class="stepwizard col-md-12 formtop-width">
+		<div class="stepwizard-row setup-panel">
+			<div class="stepwizard-step">
+				<a class="btn btn-primary disable btn-circle stepwizard-1" href="#step-2" type="button" disabled>1</a>
+				<p>Personal Information</p>
+			</div>
+			<div class="stepwizard-step">
+				<a class="btn btn-default disable btn-circle stepwizard-2" href="#step-2" type="button" disabled>2</a>
+				<p>Beneficiary Details</p>
+			</div>
+			<div class="stepwizard-step">
+				<a class="btn btn-default disable btn-circle stepwizard-3" href="#step-3" type="button">3</a>
+				<p>Quote Summary</p>
+			</div>
+		</div>
+	</div>
+	<div class="row" style="margin-bottom:50px">
+		<div class="col-md-12 order-md-1 order-2 form-sha">
+			<form role="form" method="post" enctype="multipart/form-data">
+<div class="row setup-content" id="step-2" style="display: flex;">
+        <div class="col-md-12" style="padding: 20px 0px">
+        <h3 class="text-center fontn">Benefits</h3>
+        <div class="smart-forms">
+            <div class="frm-row">
+                <div class="colm colm6">
+                    <div class="section">
+                        <label for="Premium" class="field-label">Amount to save (Premium)</label>
+                        <label class="field">
+                            <input type="text" name="Premium"  id="premium" class="gui-input" required
+                                oninput="this.value = this.value.replace(/[^0-9]/g, '').substring(0,10);" value=""
+                                placeholder="Enter Amount to Save">
+                        </label>
+                    </div>
+                </div>
+                <div class="colm colm6">
+                    <div class="section">
+                        <label for="payment_frequency_code" class="field-label">Payment Frequency</label>
+                        <label class="field select">
+                            <select id="payment_frequency_code"  name="PaymentFrequency" required="">
+                                <option value="">Select</option>
+                                <option value="ANNUALLY">ANNUALLY</option>
+                                <option value="SINGLE PREMIUM">SINGLE PREMIUM</option>
+                                <option value="MONTHLY">MONTHLY</option>
+                                <option value="QUARTERLY">QUARTERLY</option>
+                                <option value="ANNUALLY">SEMI-ANNUALLY</option>
+                            </select>
+                            <i class="arrow double"></i>
+                        </label>
+                    </div>
+                </div>
+                <div class="colm colm12">
+                    <div class="section">
+                        <label for="company_address" class="field-label"> Policy Term (No. of years) </label>
+                        <label class="field select">
+                            <select id="policy_term" name="PolicyTerm" required="">
+                                <option value="">Select</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
+                            <i class="arrow double"></i>
+                        </label>
+                    </div>
+                </div>
+                <div id="display-amounts">
+
+                    <div class="colm colm6">
+                        <div class="section">
+                            <label for="sum_assured" class="field-label">
+                                Target Amount
+                                <span class="small-text fine-grey"><strong></strong></span>
+                            </label>
+                            <label class="field">
+                                <input type="text" name="TargetAmount" id="sum_assured_field" class="gui-input" placeholder="Not Computed"
+                                    oninput="this.value = this.value.replace(/[^0-9]/g, '').substring(0,10);" required readonly style="font-weight: 900;font-size: 18px;">
+                            </label>
+                        </div>
+                    </div>
+                    <div class="colm colm6">
+                        <div class="section">
+                            <label for="life_sum_assured" class="field-label">Life Sum Assured</label>
+                            <label class="field">
+                                <input type="text" name="LifeSumAssured" id="life_sum_assured_field" class="gui-input"
+                                    oninput="this.value = this.value.replace(/[^0-9]/g, '').substring(0,10);" placeholder="Not Computed" required readonly style="font-weight: 900;font-size: 18px;">
+                            </label>
+                        </div>
+                    </div>
+                </div>
+                <div class="colm colm12">
+                    <div class="section">
+                        <label class="field">
+                            <span class="pull-center" style="display:block;width:100%;">
+                                <a class="btn standard btn-icon-reveal pull-right" href="javascript:;" style="width:100%; background: #626262"
+                                    id="calculate-policy-button">
+                                    <i class="fa fa-calculator"></i>
+                                    <span style="color:white;" class="text">Calculate</span>
+                                </a>
+                            </span>
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    	</form>
+		</div>
+	</div>
+</div>

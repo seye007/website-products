@@ -7,6 +7,17 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="wwwroot\bootstrap\**" />
+    <Compile Remove="wwwroot\vendor\inputmask\**" />
+    <Content Remove="wwwroot\bootstrap\**" />
+    <Content Remove="wwwroot\vendor\inputmask\**" />
+    <EmbeddedResource Remove="wwwroot\bootstrap\**" />
+    <EmbeddedResource Remove="wwwroot\vendor\inputmask\**" />
+    <None Remove="wwwroot\bootstrap\**" />
+    <None Remove="wwwroot\vendor\inputmask\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Remove="package.json" />
   </ItemGroup>
 
@@ -16,9 +27,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="wwwroot\bootstrap\" />
-    <Folder Include="wwwroot\dist\js\" />
-    <Folder Include="wwwroot\vendor\inputmask\" />
+    <Folder Include="wwwroot\dist\" />
   </ItemGroup>
 
   <ItemGroup>

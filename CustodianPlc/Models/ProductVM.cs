@@ -1,6 +1,6 @@
 ﻿namespace CustodianProduct.MVC.Models
 {
-	 abstract public class ProductVM
+	 public class ProductVM
 	{
 		public string ProductName { get; set; }
 		public string ProductCode { get; set; }
